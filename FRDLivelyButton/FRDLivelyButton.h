@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
-typedef enum {
+typedef NS_ENUM(NSUInteger, kFRDLivelyButtonStyle) {
     kFRDLivelyButtonStyleHamburger,
     kFRDLivelyButtonStyleClose,
     kFRDLivelyButtonStylePlus,
@@ -21,7 +20,7 @@ typedef enum {
     kFRDLivelyButtonStyleCaretRight,
     kFRDLivelyButtonStyleArrowLeft,
     kFRDLivelyButtonStyleArrowRight
-} kFRDLivelyButtonStyle;
+};
 
 @interface FRDLivelyButton : UIButton
 
